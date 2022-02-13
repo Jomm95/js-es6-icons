@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-header{
+    color: rgb(41,177,221);
+    height: 50px;
+    padding: 10px;
+
+}
+.bottom-header{
+    background-color: rgb(41,177,221);
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    display: flex;
+}
+
+.bottom-header h3{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#filter-type{
+    display:inline-block;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+
+#container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.card{
+background-color: wheat;
+width: calc(100% / 5);
+height: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+font-size: 40px;
+box-shadow: 3px 2px 5px;
+}
+
+.card p{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.color-blue{
+    color:  rgb(41,177,221);
+}
+.color-orange{
+    color: orange;
+}
+.color-purple{
+    color: rgb(197, 58, 197);
+}
